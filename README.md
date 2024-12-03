@@ -1,1 +1,1 @@
-the repo for verificate
+the repo for verificate ORM mechanism
