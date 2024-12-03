@@ -1,0 +1,3 @@
+[submodule "HawkORM"]
+	path = HawkORM
+	url = https://github.com/HarrisonEagle/HawkORM
