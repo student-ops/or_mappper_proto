@@ -1,0 +1,4 @@
+github.com/HarrisonEagle/HawkORM v0.0.0-20231004173236-bf8f87020e4f h1:Rw0q/3hq2uook8VqGMoLnPP0vyYXvidn/uXxipxDj8I=
+github.com/HarrisonEagle/HawkORM v0.0.0-20231004173236-bf8f87020e4f/go.mod h1:irWs4OenQZdek8j9UMmES0ukBrul4KbHUOPPw758Lfk=
+github.com/go-sql-driver/mysql v1.7.1 h1:lUIinVbN1DY0xBg0eMOzmmtGoHwWBbvnWubQUrtU8EI=
+github.com/go-sql-driver/mysql v1.7.1/go.mod h1:OXbVy3sEdcQ2Doequ6Z5BW6fXNQTmx+9S1MCJN5yJMI=
