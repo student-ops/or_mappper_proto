@@ -4,13 +4,23 @@
 	"name": "Go",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Configure tool-specific properties.
-	// "customizations": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.Go",           // Go公式拡張機能
+        "vadimcn.vscode-lldb", // CodeLLDB
+        "usernamehw.errorlens", // Error Lens
+				"ionutvmi.path-autocomplete",
+				"adpyke.vscode-sql-formatter"
+      ]
+    }
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5432],
