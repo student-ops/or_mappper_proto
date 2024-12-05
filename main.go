@@ -25,7 +25,7 @@ func main() {
 	}
 
 	var users []User
-	testDB.Select(&User{}).WhereOr(&User{ID: "userid1", Name: "testname"}).First(&users)
+	testDB.Select(&User{}).WhereOr(&User{ID: "userid-1", Name: "testname"}).First(&users)
 	fmt.Println(users)
 
 	// レコードの作成
